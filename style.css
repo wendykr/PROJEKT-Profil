@@ -46,7 +46,7 @@ body {
 
 .obsah {
 	font-family: 'Source Sans Pro', sans-serif;
-	color: #ffffff;
+	color: #cccccc;
 	font-size: 14px;
 	padding: 0 20px;
 }
@@ -55,6 +55,9 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
 	font-size: 24px;
+	margin: 0;
+	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 .odkazy {
@@ -66,12 +69,13 @@ body {
 }
 
 .odkazy li {
+	display: inline-block;
 	border-top: 1px solid #3f464d;
 }
 
 .odkazy a {
 	font-family: 'Montserrat', sans-serif;
-	color: #ffffff;
+	color: #cccccc;
 	text-decoration: none;
     text-transform: uppercase;
 	font-weight: bolder;
@@ -85,21 +89,22 @@ body {
 
 .portfolio a:hover, a:focus, a:active {
 	background-color: #e74c3c;
+	color: #ffffff;
 	width: 100%;
 }
 
 .facebook, .twitter {
-	display: inline-block;
 	width: 50%;
 }
 
 .facebook a:hover, a:focus, a:active {
 	background-color: #3b5998;
+	color: #ffffff;
 	width: 100%;
-
 }
 
 .twitter a:hover, a:focus, a:active {
 	background-color: #1da1f2;
+	color: #ffffff;
 	width: 100%;
 }
